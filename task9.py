@@ -21,14 +21,20 @@ from os import environ
 from time import sleep
 
 
-def main():
+logging.basicConfig(filename='log_file.log', encoding="utf-8", level=logging.INFO,
+                    format='%(asctime)s %(levelname)s %(message)s', datefmt="%b %d %H:%M:%S")
+
+if argv and len(argv) == 3:
     quantity = int(argv[1])
     delay = int(argv[2])
-
+    step = 1
     for key, value in environ.items():
-        print(f"{key} -> {value}")
-        sleep(delay)
+        if step <= quantity:
+            step += 1
+            logging.info(f"{key} -> {value}")
+            sleep(delay)
+        else:
+            break
+else:
+    print("не могу продолжить выполнение без аргументов")
 
-
-if __name__ == "__main__":
-    main()
