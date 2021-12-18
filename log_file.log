@@ -1,0 +1,10 @@
+Dec 16 14:22:37 INFO PATH -> /opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+Dec 16 14:22:38 INFO MANPATH -> /opt/homebrew/share/man::
+Dec 16 14:22:39 INFO HOMEBREW_PREFIX -> /opt/homebrew
+Dec 16 14:22:40 INFO COMMAND_MODE -> unix2003
+Dec 16 14:22:41 INFO LOGNAME -> albert
+Dec 16 14:22:42 INFO HOMEBREW_REPOSITORY -> /opt/homebrew
+Dec 16 14:22:43 INFO XPC_SERVICE_NAME -> application.com.jetbrains.pycharm.967083.967832.26C3EC49-BA1F-40A5-81EC-FDBAC36BBFD4
+Dec 16 14:22:44 INFO PWD -> /Users/albert/PycharmProjects/ReBrain-Python
+Dec 16 14:22:45 INFO PYCHARM_HOSTED -> 1
+Dec 16 14:22:46 INFO TOOLBOX_VERSION -> 1.22.10970
